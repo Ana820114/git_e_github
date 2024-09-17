@@ -69,3 +69,11 @@ Um **issue** é um item de trabalho que pode ser usado para rastrear bugs, taref
 GitHub desempenhou um papel crucial na popularização do desenvolvimento colaborativo e open source, oferecendo ferramentas poderosas para gestão de código, revisão de código e colaboração. A plataforma continua a evoluir, introduzindo novas funcionalidades e mantendo seu status como uma das principais ferramentas de desenvolvimento no mundo.
 
 Para mais detalhes sobre a história do GitHub, visite a [página sobre a empresa](https://github.com/about).
+
+### Desafios de Trabalhar Somente com Git Local
+
+Quando trabalhamos apenas com um repositório Git local, enfrentamos algumas limitações:
+
+- **Colaboração Limitada**: Compartilhar código com outros desenvolvedores exige o uso de métodos manuais, como enviar arquivos por e-mail, o que é ineficiente e propenso a erros.
+- **Falta de Backup**: Sem um repositório remoto, todo o código fica armazenado em sua máquina local. Se o disco rígido falhar, você pode perder todo o trabalho.
+- **Histórico de Projetos Restrito**: Manter um histórico de versões só em sua máquina impede que outros colaboradores acessem facilmente o progresso do projeto.
