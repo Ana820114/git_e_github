@@ -22,6 +22,17 @@ Uma **branch** (ou ramificação) é uma linha independente de desenvolvimento d
 
 Um **commit** é uma alteração no código que é registrada no repositório. Cada commit inclui uma mensagem que descreve as mudanças realizadas e é associado a um identificador único.
 
+### Opções de Repositórios Remotos 🌐
+
+Existem várias plataformas que fornecem serviços de repositórios remotos, cada uma com suas características:
+
+- **GitHub** 🐙: Popular e amplamente utilizado, com forte integração com ferramentas de CI/CD e uma grande comunidade de desenvolvedores.
+
+- **GitLab** 🦊: Focado em DevOps, com recursos avançados de CI/CD e privacidade aprimorada.
+
+- **Bitbucket** 🏷️: Integrado com a Atlassian (Jira, Confluence), popular em ambientes corporativos.
+
+
 ### Pull Request
 
 Um **pull request** (PR) é uma solicitação para revisar e mesclar alterações de uma branch para outra. Ele permite que outros colaboradores revisem o código antes de integrá-lo ao repositório principal.
