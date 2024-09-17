@@ -38,14 +38,6 @@ Hoje, o Git é amplamente utilizado tanto em projetos de código aberto quanto e
 1. Baixe o Git [aqui](https://git-scm.com/download/win).
 2. Execute o instalador e siga as instruções.
 
-### Linux
-1. Abra o terminal.
-2. Execute: `sudo apt-get install git`
-
-### Mac
-1. Abra o terminal.
-2. Execute: `brew install git`
-
 ## 🎯 Configuração do Git
 
 Configure o nome e o e-mail do usuário:
@@ -85,7 +77,109 @@ Você pode visualizar as configurações atuais usando os seguintes comandos:
   ```bash
   git config --global --list
   ```
+  Esses comandos vão listar as configurações e seus valores, permitindo que você veja detalhes como o nome de usuário e o e-mail configurados para o Git.
+  4. **Comandos Git Principais**:
 
-Esses comandos vão listar as configurações e seus valores, permitindo que você veja detalhes como o nome de usuário e o e-mail configurados para o Git.
+📁 **Trabalhar com Arquivos**:
+
+- Adicionar arquivos ao estágio(stage)
+```bash
+    git add <arquivo>
+```
+- Adicionar todos os arquivos modificados ao estágio
+```bash
+    git add .
+```
+```bash
+      git init
+```
+- Remover arquivos do estágio
+```bash
+    git reset <arquivo>
+```
+- Excluir arquivos do repositório
+```bash
+    git rm <arquivo>
+```
+📝 **Commit e Histórico**:
+
+- Fazer um commit das mudanças
+```bash
+    git commit -m "Mensagem do commit"
+```
+- Verificar o status dos arquivos
+```bash
+    git status
+```
+- Ver o histórico de commits
+```bash
+    git log
+```
+- Ver o histórico de commits em uma linha por commit
+```bash
+    git log --oneline
+```
+🌿 **Branches e Merges**:
+
+- Criar uma nova branch
+```bash
+    git branch <nome-da-branch>
+```
+- Mudar para uma branch específica
+```bash
+    git checkout <nome-da-branch>
+```
+- Criar e mudar para uma nova branch
+```bash
+    git checkout -b <nome-da-branch>
+```
+- Unir (merge) uma branch com a branch atual
+```bash
+    git merge <nome-da-branch>
+```
+- Excluir uma branch
+```bash
+    git branch -d <nome-da-branch>
+```
+🔄 **Atualizar e Sincronizar com o Repositório Remoto**:
+
+- Adicionar um repositório remoto
+```bash
+    git remote add origin <URL-do-repositorio>
+```
+- Enviar commits para o repositório remoto
+```bash
+    git push origin <nome-da-branch>
+```
+- Baixar e mesclar mudanças do repositório remoto
+```bash
+    git pull origin <nome-da-branch>
+```
+- Ver os repositórios remotos configurados
+```bash
+    git remote -v
+```
+🔍 Outros Comandos Úteis
+
+- Ver as mudanças não comprometidas
+```bash
+    git diff
+```
+- Desfazer mudanças no arquivo
+```bash
+    git checkout -- <arquivo>
+```
+- Reverter o último commit (mantendo as mudanças no working directory)
+```bash
+    git reset --soft HEAD~1
+```
+- Reverter o último commit (desfazendo as mudanças)
+```bash
+    git reset --hard HEAD~1
+```
+- Ver quais arquivos foram alterados
+```bash
+    git status
+```
 
 
